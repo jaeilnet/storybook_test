@@ -1,14 +1,13 @@
-$ storybook build --output-dir /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--52320-FaqnvAbCUwct
 @storybook/cli v7.0.18
 
-info => Cleaning outputDir: /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--52320-FaqnvAbCUwct
+info => Cleaning outputDir: /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--62877-B5gq4tVAlbhg
 info => Loading presets
 info Found existing addon "@storybook/addon-actions", skipping.
 info Found existing addon "@storybook/addon-actions", skipping.
 info => Building manager..
-info => Manager built (209 ms)
+info => Manager built (392 ms)
 info => Compiling preview..
-info => Copying static files: /Users/gv03/Documents/study/sides/node_modules/@storybook/manager/static at /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--52320-FaqnvAbCUwct/sb-common-assets
+info => Copying static files: /Users/gv03/Documents/study/sides/node_modules/@storybook/manager/static at /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--62877-B5gq4tVAlbhg/sb-common-assets
 WARN No story files found for the specified pattern: src/**/*.mdx
 WARN You (or an addon) are using the 'config' preset field. This has been replaced by 'previewAnnotations' and will be removed in 8.0
 info Addon-docs: using MDX2
@@ -118,14 +117,17 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
 <s> [webpack.Progress] 25% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 25% building 0/1 entries 14/22 dependencies 4/14 modules
-<s> [webpack.Progress] 31% building import loader ./node_modules/unplugin/dist/webpack/loaders/load.js
-<s> [webpack.Progress] 31% building 0/1 entries 43/80 dependencies 12/31 modules
-<s> [webpack.Progress] 51% building import loader ./node_modules/style-loader/dist/cjs.js
-<s> [webpack.Progress] 51% building import loader ./node_modules/css-loader/dist/cjs.js
-<s> [webpack.Progress] 51% building import loader ./node_modules/resolve-url-loader/index.js
-<s> [webpack.Progress] 51% building import loader ./node_modules/@storybook/addon-styling/node_modules/sass-loader/dist/cjs.js
-<s> [webpack.Progress] 51% building 0/1 entries 467/488 dependencies 155/204 modules
-<s> [webpack.Progress] 47% building 0/1 entries 843/900 dependencies 254/368 modules
+<s> [webpack.Progress] 21% building 0/1 entries 19/23 dependencies 4/19 modules
+<s> [webpack.Progress] 30% building import loader ./node_modules/unplugin/dist/webpack/loaders/load.js
+<s> [webpack.Progress] 30% building 0/1 entries 40/63 dependencies 11/29 modules
+<s> [webpack.Progress] 36% building 0/1 entries 371/400 dependencies 80/165 modules
+<s> [webpack.Progress] 52% building import loader ./node_modules/style-loader/dist/cjs.js
+<s> [webpack.Progress] 52% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 52% building import loader ./node_modules/resolve-url-loader/index.js
+<s> [webpack.Progress] 52% building import loader ./node_modules/@storybook/addon-styling/node_modules/sass-loader/dist/cjs.js
+<s> [webpack.Progress] 52% building 0/1 entries 467/490 dependencies 157/203 modules
+<s> [webpack.Progress] 45% building 0/1 entries 647/665 dependencies 194/300 modules
+<s> [webpack.Progress] 52% building 0/1 entries 1175/1200 dependencies 354/456 modules
 <s> [webpack.Progress] 65% building 1/1 entries 1269/1269 dependencies 487/487 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
@@ -230,10 +232,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.f33cb92a.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.f33cb92a.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.976ba1fd.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.976ba1fd.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-buttons-Buttons-stories.64bf3a6d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-buttons-Buttons-stories.64bf3a6d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.da8fac19.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.da8fac19.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-buttons-Buttons-stories.addd90c3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-buttons-Buttons-stories.addd90c3.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 669.6aaf0adc.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 669.6aaf0adc.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 341.5f7ae5fd.iframe.bundle.js generate SourceMap
@@ -312,7 +314,7 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-info => Preview built (14 s)
+info => Preview built (19 s)
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
 WARN Assets: 
@@ -330,4 +332,9 @@ WARN
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-info => Output directory: /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--52320-FaqnvAbCUwct
+info => Output directory: /var/folders/x1/8yd9f9x93v59ddwjxz9nzwp40000gn/T/chromatic--62877-B5gq4tVAlbhg
+npm notice 
+npm notice New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+npm notice 
